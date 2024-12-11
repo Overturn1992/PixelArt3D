@@ -21,14 +21,10 @@ public:
     void setupMesh();
     void draw() const;
 
-    // 静态方法用于创建基本形状
+    // 基础形状创建函数
     static Model createCube(const glm::vec3& position, const glm::vec3& size, const glm::vec3& color);
     static Model createGround(float width, float depth, const glm::vec3& color);
-    
-    // 动物模型创建函数
     static Model createCat(const glm::vec3& position, float scale);
-    static Model createRabbit(const glm::vec3& position, float scale);
-    static Model createBird(const glm::vec3& position, float scale);
 
 private:
     void addCube(const glm::vec3& position, const glm::vec3& size, const glm::vec3& color);

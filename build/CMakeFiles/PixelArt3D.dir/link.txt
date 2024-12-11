@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/PixelArt3D.dir/src/main.cpp.o CMakeFiles/PixelArt3D.dir/src/Shader.cpp.o CMakeFiles/PixelArt3D.dir/src/Camera.cpp.o CMakeFiles/PixelArt3D.dir/src/Model.cpp.o -o PixelArt3D  /usr/lib/x86_64-linux-gnu/libGL.so /usr/lib/x86_64-linux-gnu/libGLU.so /usr/lib/x86_64-linux-gnu/libglfw.so.3.3 -lGL -lGLEW 
